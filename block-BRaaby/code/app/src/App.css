@@ -1,0 +1,62 @@
+@import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Rajdhani:wght@400;700&display=swap");
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 1rem;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: #e9e6e6;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Kalam", cursive;
+}
+
+.info-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 1.25rem;
+}
+
+.info-buttons button:hover {
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px white;
+}
+
+.submit-button {
+  /* background-color: rgb(64, 64, 243); */
+  background-color: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: 3px solid white;
+  display: block;
+  margin: 1rem auto;
+}
