@@ -5,6 +5,7 @@ class Timer extends React.Component {
   constructor(props) {
     super(props);
     this.timer = null;
+    this.reRenderCount = 0;
     this.state = {
       currentTime: new Date(),
     };
@@ -22,6 +23,9 @@ class Timer extends React.Component {
   }
 
   render() {
+    {
+      console.log(this.reRenderCount++);
+    }
     return (
       <div className="timer">
         <span>{this.props.city}:=====: </span>
