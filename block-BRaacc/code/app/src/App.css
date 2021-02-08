@@ -1,0 +1,14 @@
+.App {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.inputGHUser {
+  width: 300px;
+  margin-right: 1rem;
+}
+
+.user-info--advanced-brief {
+  display: flex;
+  gap: 3rem;
+}
